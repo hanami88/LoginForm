@@ -1,0 +1,77 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #121826;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  height: 25rem;
+  justify-content: center;
+  background-color: #212936;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 5rem #5425af;
+  border: 0.01rem solid rgb(255, 255, 255);
+  opacity: 0.8;
+  color: white;
+}
+.register-form > :not(a) {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.register-form .Login {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: white;
+  width: 27rem;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+}
+
+.button {
+  display: block;
+  padding: 1.1rem 2rem 1.1rem 2.4rem;
+  border-radius: 2rem;
+  border: none;
+  background: linear-gradient(to bottom, #845eee 50%, #5425af);
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: 4.2rem;
+  width: 4rem;
+  margin-left: 13.3rem;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.special {
+  color: #a1a1a9;
+}
+
+.Login-be {
+  display: flex;
+}
+p {
+  margin-left: 0.3rem;
+}
+.special1 {
+  margin-bottom: 1rem;
+}
+
+.cc {
+  margin-bottom: -2rem;
+}
+
+li {
+  margin: 1rem 0rem 1rem 2rem;
+}

@@ -1,0 +1,73 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #121826;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 25rem;
+  justify-content: center;
+  background-color: #212936;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 5rem #5425af;
+  border: 0.01rem solid white;
+  opacity: 0.8;
+}
+
+.Login {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #e5e7eb;
+  width: 27rem;
+}
+
+.button {
+  display: block;
+  padding: 1.1rem 2.4rem;
+  border-radius: 2rem;
+  border: none;
+  background: linear-gradient(to bottom, #845eee 50%, #5425af);
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: 1.47rem;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+.Login {
+  margin-right: 3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30rem;
+  height: 3rem;
+  border: 0.02rem solid rgba(255, 255, 255, 0.401);
+  border-radius: 0.7rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.12);
+  &:hover {
+    background-color: #5425af;
+    border: 0.05rem solid #845eee;
+    font-weight: 450;
+  }
+}
+.text {
+  margin-left: 1.3rem;
+  color: #e5e7eb;
+}

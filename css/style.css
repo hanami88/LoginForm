@@ -1,0 +1,73 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #121826;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 25rem;
+  justify-content: center;
+  background-color: #212936;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 5rem #5425af;
+  border: 0.01rem solid white;
+  opacity: 0.8;
+}
+
+.Login {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #e5e7eb;
+}
+.Name1 {
+  color: #e5e7eb;
+  font-size: 0.8rem;
+  margin-right: 29rem;
+  margin-bottom: 1rem;
+}
+.Email1 {
+  color: #e5e7eb;
+  font-size: 0.8rem;
+  margin-right: 29rem;
+  margin-bottom: 1rem;
+}
+input {
+  height: 2.7rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  background-color: #212936;
+  border: 0.1rem solid rgba(255, 255, 255, 0.214);
+  outline: none;
+  color: white;
+}
+
+.button {
+  display: block;
+  padding: 1.1rem 2.4rem;
+  border-radius: 2rem;
+  border: none;
+  background: linear-gradient(to bottom, #845eee 50%, #5425af);
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.Login {
+  margin-right: 25.5rem;
+}
