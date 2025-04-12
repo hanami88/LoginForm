@@ -1,4 +1,4 @@
-<<<<<<< HEAD #**Login Form**
+#**Login Form**
 
 - Home
   ![Home](./hinh/hinh3.png)
